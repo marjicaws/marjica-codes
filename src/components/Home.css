@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 
 .home-border {
    
-    margin: 8vh 1vw ;
+  margin: 8vh 1vw ;
    
 }
 
@@ -14,8 +14,7 @@ font-size: 5vw;
 color: rgb(235, 217, 240) ;
 -webkit-text-stroke: 0.3vw  ;
 text-transform: uppercase;
-
-font-family: 'Poppins', sans-serif;
+font-family: 'Bebas Neue', cursive;
 
 }
 
@@ -26,7 +25,7 @@ font-family: 'Poppins', sans-serif;
     left: 0;
     width: 0;
     height: 100%;
-    color: white;
+    color: hotpink;
     -webkit-text-stroke: 0vw #FF101F ;
     border-right: 2px solid #FF101F;
     overflow: hidden;
@@ -44,13 +43,13 @@ font-family: 'Poppins', sans-serif;
 }
 
 .home-title {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Bebas Neue', cursive;
     font-size: 3rem;
     color: white;
 }
 
 .home-date {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Bebas Neue', cursive;
     font-size: 2rem;
     color: white;
 }
@@ -58,7 +57,7 @@ font-family: 'Poppins', sans-serif;
 .home-img-div {
    width: 100%;
    height: 90vh;
-   
+   height: 130vh;
    
   
 }
