@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 .nav {
-   border-bottom: 1px solid #c5b3d4;
-   background-color: #c5b3d4;
+   border-bottom: 1px solid rgb(235, 217, 240);
+   background-color: rgb(235, 217, 240);
 }
 
 .nav-case {
