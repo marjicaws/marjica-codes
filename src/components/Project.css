@@ -5,32 +5,46 @@
 .prj {
 background-color: rgb(235, 217, 240);
 padding: 5vh 5vh;
+text-decoration: none;
 }
 
 .prj-title {
     font-family: 'Roboto Mono', monospace;
     color: white;
     font-size: 10vw;
+    margin-right: 2vw;
+    text-decoration: none;
 }
 .prj-text {
     font-family: 'Roboto Mono', monospace; 
     color: white;
+    font-size: 8vw;
+  
+    text-decoration: none;
+
 }
 .prj-1 {
    grid-area: link1;
    float: right;
+   text-decoration: none;
 }
+
+
 
 .prj-2 {
     grid-area: link2;
+    text-decoration: none;
 }
 
 .prj-3 {
     grid-area: link3;
+    text-decoration: none;
 }
 
 .prj-4 {
+    
     grid-area: link4;
+    text-decoration: none;
 }
 .prj-end {
     color: white;
@@ -39,7 +53,11 @@ padding: 5vh 5vh;
 }
 .prj-links {
     display: grid;
-    grid-template-areas: "link1 link2 link3 link4";
+    grid-template-areas: "link1" 
+                         "link2" 
+                         "link3"
+                         "link4";
+    text-decoration: none;
 }
 .prj-img{
     border-radius: 50%;
