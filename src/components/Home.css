@@ -3,14 +3,14 @@
 
 .home-border {
     border: 3px solid #D5C9DF;
-    margin: 10vw 2.5vw;
+    margin: 10vw 8vw ;
    
 }
 
 
 .home-name {
 position: relative;
-font-size: 6.5vw;
+font-size: 5vw;
 color: #c5b3d4;
 -webkit-text-stroke: 0.3vw #D5C9DF ;
 text-transform: uppercase;
@@ -24,23 +24,34 @@ font-family: 'Poppins', sans-serif;
     position: absolute;
     top: 0;
     left: 0;
-    width: 50%;
+    width: 0;
     height: 100%;
     color: #FF101F;
     -webkit-text-stroke: 0vw #D5C9DF ;
     border-left: 2px solid #FF101F;
+    overflow: hidden;
+}
+
+@keyframes animate {
+    0%, 10%, 100% {
+        width: 0;
+    }
+    70%, 90% {
+        width: 100%;
+    }
+
 }
 
 .home-title {
     font-family: 'Poppins', sans-serif;
     font-size: 5rem;
-    color: #FF101F;
+    color: white;
 }
 
 .home-date {
     font-family: 'Poppins', sans-serif;
     font-size: 4rem;
-    color: #FF101F;
+    color: white;
 }
 
 .home-img-div {
