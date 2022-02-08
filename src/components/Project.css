@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+
+
+.prj {
+background-color: black;
+padding: 5vh 5vh;
+}
+
+.prj-title {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-size: 10vw;
+}
+.prj-text {
+    font-family: 'Roboto Mono', monospace; 
+    color: white;
+}
+.prj-1 {
+   grid-area: link1;
+   float: right;
+}
+
+.prj-2 {
+    grid-area: link2;
+}
+
+.prj-3 {
+    grid-area: link3;
+}
+
+.prj-4 {
+    grid-area: link4;
+}
+.prj-end {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 10vw;
+}
+.prj-links {
+    display: grid;
+    grid-template-areas: "link1 link2 link3 link4";
+}
+.prj-img{
+    border-radius: 50%;
+    width: 20vw;
+    height: 40vh;
+    
+}

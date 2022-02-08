@@ -1,0 +1,58 @@
+.form {
+    display: grid;
+    grid-template-areas: "email"
+                         "message"
+                         "send";
+    margin: 10vw;
+    
+}
+
+.form-page-title {
+color: white;
+margin: 2vw;
+padding-left: 6vw;
+font-size: 10vw;
+}
+
+.form-page {
+
+}
+
+.form-inputs {
+
+}
+
+.form-email {
+grid-area: email;
+padding: 2vw;
+margin-left: -23.5vw;
+
+}
+.form-email-input {
+padding: 1vw 3vw;
+}
+
+.form-email-input-label {
+padding: 1vw;
+color: white;
+}
+
+.form-message {
+grid-area: message;
+}
+.form-message-input-label{
+padding: 1vw;
+color: white;
+}
+
+.form-message-input {
+padding: 2vw;
+}
+
+.form-input-button {
+grid-area: send;
+padding: 1vw 3vw;
+margin: 3vh 0vw 3vh -29.5vw;
+font-weight: bold;
+font-size: 1.5vw;
+}
