@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 .form {
     display: grid;
     grid-template-areas: "email"
@@ -8,10 +9,11 @@
 }
 
 .form-page-title {
-color: white;
+color: #111118;
 margin: 2vw;
-padding-left: 6vw;
+padding-left: 4vw;
 font-size: 10vw;
+font-family: 'Bebas Neue', cursive;
 }
 
 .form-page {
@@ -25,11 +27,12 @@ font-size: 10vw;
 .form-email {
 grid-area: email;
 padding: 2vw;
-margin-left: -20vw;
+margin-left: -11.5rem;
+font-family: 'Bebas Neue', cursive;
 
 }
 .form-email-input {
-padding: 1vw 3vw;
+padding: 1vw 4.0vw;
 }
 
 .form-email-input-label {
@@ -39,6 +42,7 @@ color: white;
 
 .form-message {
 grid-area: message;
+font-family: 'Bebas Neue', cursive;
 }
 .form-message-input-label{
 padding: 1vw;
@@ -52,7 +56,12 @@ padding: 2vw;
 .form-input-button {
 grid-area: send;
 padding: 1vw 3vw;
-margin: 3vh 0vw 3vh -24vw;
+margin: 3vh 0vw 3vh -15rem;
 font-weight: bold;
 font-size: 1.5vw;
+background-color: #111118;
+border: 1px solid whitesmoke;
+border-radius: 5%;
+color: whitesmoke;
+font-family: 'Bebas Neue', cursive;
 }

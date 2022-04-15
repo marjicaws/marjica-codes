@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
 .home-border {
    
   margin: 8vh 1vw ;
@@ -10,28 +10,83 @@
 
 .home-name {
 position: relative;
-font-size: 5vw;
-color: rgb(235, 217, 240) ;
--webkit-text-stroke: 0.3vw  ;
-text-transform: uppercase;
+font-size: 5rem;
+color: #111118;
+
+letter-spacing: 5px;
 font-family: 'Bebas Neue', cursive;
 
 }
 
-.home-name::before {
-    content: attr(data-text);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    color: hotpink;
-    -webkit-text-stroke: 0vw #FF101F ;
-    border-right: 2px solid #FF101F;
-    overflow: hidden;
-    animation: animate 10s linear infinite;
+.circle {
+border: 2px solid #989FCE;
+border-radius: 50%;
+height: 500px;
+width: 500px;
+display: flex;
+background-color: #989FCE;
+border: 5px solid silver;
+margin: 0px 42.5rem;
+animation: rotation 10s infinite linear;
+
 }
 
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(350deg);
+    }
+}
+
+.dot {
+border: 1px solid black;
+border-radius: 50%;
+height: 150px;
+width: 150px;
+margin: 10px 150px;
+background-color: black;
+}
+
+.cootieshot {
+    border: 1px solid #FBFEF9;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin: 50px;
+    background-color: #FBFEF9;
+}
+
+.line1 {
+    border: 1px solid black ;
+    border-radius: 50%;
+    margin: 15px;
+    height: 450px;
+    width: 450px;
+}
+.cd-title {
+    font-family: 'Rubik Glitch', cursive;
+}
+
+.cd-name {
+    font-family: 'Pinyon Script', cursive;
+    color: white;
+    font-size: 40px;
+    margin: 5px;
+}
+.cd-song {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+    margin: 5px;
+}
+.cd-btn {
+    border-radius: 50%;
+    border: 1px solid silver;
+    height: 500px;
+    width: 500px;
+    background-color: #989FCE ;
+}
 @keyframes animate {
     0%, 10%, 100% {
         width: 0;
@@ -44,14 +99,16 @@ font-family: 'Bebas Neue', cursive;
 
 .home-title {
     font-family: 'Bebas Neue', cursive;
-    font-size: 3rem;
-    color: white;
+    font-size: 2rem;
+    color: #111118;
+    letter-spacing: 6px;
+    
 }
 
 .home-date {
     font-family: 'Bebas Neue', cursive;
     font-size: 2rem;
-    color: white;
+    color: #111118;
 }
 
 .home-img-div {
@@ -62,3 +119,14 @@ font-family: 'Bebas Neue', cursive;
   
 }
 
+.btn {
+    background-color: #111118 ;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+    color:whitesmoke;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 75%;
+    padding: 0% 50px;
+    letter-spacing: 1.5px;
+
+}

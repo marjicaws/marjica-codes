@@ -1,22 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 
 
 .prj {
-background-color: rgb(235, 217, 240);
-padding: 5vh 5vh;
+background-color: #111118;
+padding: 1vh 6vw;
 text-decoration: none;
 }
 
 .prj-title {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Bebas Neue', cursive;
     color: white;
     font-size: 10vw;
-    margin-right: 2vw;
+    margin-left: -50vw ;
     text-decoration: none;
 }
 .prj-text {
-    font-family: 'Roboto Mono', monospace; 
+    font-family: 'Bebas Neue', cursive;
     color: white;
     font-size: 8vw;
   
@@ -48,15 +48,13 @@ text-decoration: none;
 }
 .prj-end {
     color: white;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Bebas Neue', cursive;
     font-size: 10vw;
 }
 .prj-links {
     display: grid;
-    grid-template-areas: "link1" 
-                         "link2" 
-                         "link3"
-                         "link4";
+    grid-template-areas: "link1 link2" 
+                         "link3 link4";
     text-decoration: none;
 }
 .prj-img{

@@ -15,7 +15,7 @@ export default function MyFormcarry() {
  
   return (
     <div className='form-page'>
-    <h1 className='form-page-title'>Contact Me</h1>
+    <h1 className='form-page-title'>Say Hi!</h1>
     <form className="form" onSubmit={submit}>
       <div className='form-inputs'>
         <div className='form-email'>

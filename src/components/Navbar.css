@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 .nav {
-   border-bottom: 1px solid rgb(235, 217, 240);
-   background-color: rgb(235, 217, 240);
+   border-bottom: 1px solid #111118;
+   background-color: #111118;
 }
 
 .nav-case {
     
     display: flex;
     justify-content: space-around;
-    padding: 0vw 1vw 0vw 0vw;
+    padding: 0vw 0vw 0vw 0vw;
     
 }
 
@@ -25,13 +25,16 @@
     font-family: 'Bebas Neue', cursive;
     font-size: 3vw;
     font-weight: bold;
-    color: white;
+    letter-spacing: 2px;
+    color: whitesmoke;
+    position: relative;
+
 }
 
 .about-link{
     margin: 0 2vw;
     text-decoration: none;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Abril Fatface', cursive;
     font-size: 3vw;
     font-weight: lighter;
     color: white;
@@ -40,17 +43,17 @@
 .portfolio-link{
     margin: 0 2vw;
     text-decoration: none;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Abril Fatface', cursive;
     font-size: 3vw;
     font-weight: lighter;
     color: white;
 }
 
 .contact-link{
-    margin: 0  2vw;
+    margin: -2vh  2vw;
     text-decoration: none;
     font-family: 'Bebas Neue', cursive;
     font-size: 3vw;
     font-weight: lighter;
-    color: white;
+    color: whitesmoke;
 }

@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 .about-body {
-background-color: #ebdbf1;
+background-color: #111118;
     display: grid;
     grid-template-areas: "img me"
                          "img link"
@@ -13,25 +12,29 @@ background-color: #ebdbf1;
 
 
 grid-area: img;
-
+border: 2px solid whitesmoke;
+border-radius: 50%;
+width: 150%;
+height: 20%;
+margin: 0 0 150%;
 }
 
 .download-link {
-    font-family: 'Roboto Mono', monospace;
-    color: red;
+    font-family: 'Bebas Neue', cursive;
+    color: whitesmoke;
     text-decoration: none;
 }
 
 .about-me {
     grid-area: me;
-    color: red;
+    color: whitesmoke;
     
 }
 .about-title {
     display: flex;
     flex-direction: row;
     padding: 2vw;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Bebas Neue', cursive;
     font-size: 7vw;
 }
 
@@ -39,7 +42,7 @@ grid-area: img;
     display: flex;
     flex-direction: row-reverse;
     padding: 2vw;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Bebas Neue', cursive;
     font-size: 5vw;
 }
 
@@ -55,39 +58,49 @@ grid-area: img;
 
 .name {
 padding:0vw 1vw 1vw 1vw;
-font-family: 'Roboto Mono', monospace;
+font-family: 'Bebas Neue', cursive;
+font-size: 4rem;
 }
 
 .location {
     padding:0vw 1vw 1vw 1vw; 
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5rem;
 }
 
 .title {
     padding:0vw 1vw 1vw 1vw; 
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
 }
 
 .skills {
     padding:1vw 1vw 1vw 1vw; 
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2vw;
 }
 .about-paragraph {
-    margin: 3vw 3vw 1vw 3vw;
-    font-family: 'Roboto Mono', monospace;
+    margin: 3vw 1vw 1vw 3vw;
+    font-family: 'Bebas Neue', cursive;
     text-align: left;
+    font-size: 1.2rem;
 }
 
 .download-link{
     grid-area: link;
-    color: black;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 1vw;
+    color: whitesmoke;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3vw;
+    background-color: #111118;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5vw;
 }
 
-.download-link-btn{
-   background-color: white;
-    padding: 1vw 3vw 1vw 3vw;
-    
+.download-button{
+   color: whitesmoke;
+text-decoration: none;
+padding: 1vh 2vw 1vh 2vw;
     
 }

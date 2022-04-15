@@ -1,5 +1,5 @@
 .footer {
-border: 2px solid black;
+border: 2px solid #FBFEF9;
 display: flex;
 justify-content: space-evenly;
 
@@ -7,13 +7,13 @@ justify-content: space-evenly;
 }
 
 .footer-git {
-    color: #EDF6F9;
+    color: #111118;
 
 
 }
 
 .footer-linked {
-    color: #EDF6F9;
+    color: #111118;
 }
 
 .git {
