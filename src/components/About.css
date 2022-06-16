@@ -8,7 +8,7 @@ background-color: #111118;
 ;
 }
 
-.about-img {
+/* .about-img {
 
 
 grid-area: img;
@@ -17,7 +17,7 @@ border-radius: 50%;
 width: 150%;
 height: 20%;
 margin: 0 0 150%;
-}
+} */
 
 .download-link {
     font-family: 'Bebas Neue', cursive;
@@ -103,4 +103,8 @@ font-size: 4rem;
 text-decoration: none;
 padding: 1vh 2vw 1vh 2vw;
     
+}
+
+.general {
+    margin-left: 35%;
 }

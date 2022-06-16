@@ -13,7 +13,7 @@ const Home = () => {
       <div className="line1">
         <h3 className="cd-title">Blk Tech Records</h3>
         <h2 className="cd-song">"Hire Me"</h2>
-        <h3 className="cd-name">Saint Mars</h3>
+        <h3 className="cd-name">Mars</h3>
                 <div className="line2">
           <div className="line3">
             <div className="line4">
@@ -28,14 +28,15 @@ const Home = () => {
     </div>
    
     
-     <h2 className="home-title">Junior Software Engineer</h2>
+     <h2 className="home-title">Aspiring Software Engineer</h2>
      <h2 className="home-title">Singer-Songwriter</h2>
      
 
      <h3 className="home-date">2022</h3>
-     <Link className='about-link' to ="/about"><button className='btn'><p>about</p></button></Link>
-    <Link className='portfolio-link'to= "/portfolio"><button className='btn'><p>portfolio</p></button></Link>
-   
+     <div className="btns">
+     <Link className='about-link' to ="/about"><button className='btn-home'><p>about</p></button></Link>
+    <Link className='portfolio-link'to= "/portfolio"><button className='btn-port'><p>portfolio</p></button></Link>
+    </div>
      </div>
   </div>;
 };

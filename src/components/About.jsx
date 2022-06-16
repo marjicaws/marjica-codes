@@ -8,12 +8,13 @@ export default function About() {
       <div className='about-me'>
       <h2 className='about-title'> Get to know me:</h2>
       <ul className='about-detail'>
+        <div className='general'>
         <li className='name'>Marjica Watson-Santos</li>
         <li className='location'> Atlanta, GA</li>
-        <li className='title'>Junior Software Engineer, General Assembly</li>
+        <li className='title'>Aspiring Software Engineer, General Assembly 2022</li>
         <li className='title'>B.A. in Creative Writing with a  Music Minor, Georgia State University</li>
         <li className='title'>Former Opera Singer and Songwriter</li>
-        
+        </div>
         
 
        

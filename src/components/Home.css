@@ -119,14 +119,32 @@ background-color: black;
   
 }
 
-.btn {
+.btn-port {
     background-color: #111118 ;
     border-radius: 10px;
     border: 1px solid whitesmoke;
     color:whitesmoke;
     font-family: 'Bebas Neue', cursive;
     font-size: 75%;
-    padding: 0% 50px;
+    padding: 0% 80px;
     letter-spacing: 1.5px;
 
+}
+
+.btn-home {
+    background-color: #111118 ;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+    color:whitesmoke;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 75%;
+    padding: 0% 100px;
+    letter-spacing: 1.5px;
+    
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
 }
