@@ -1,25 +1,21 @@
 .footer {
-border: 2px solid #FBFEF9;
-display: flex;
-justify-content: space-evenly;
-
-
+  border: 2px solid #fbfef9;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .footer-git {
-    color: #111118;
-
-
+  color: #eb3402;
 }
 
 .footer-linked {
-    color: #111118;
+  color: #00249e;
 }
 
 .git {
-    color: #EDF6F9;
+  color: #eb3402;
 }
 
 .linked {
-    color: #EDF6F9;
+  color: #00249e;
 }

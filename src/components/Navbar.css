@@ -1,59 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 .nav {
-   border-bottom: 1px solid #111118;
-   background-color: #111118;
+  border-bottom: 1px solid white;
+  background-color: white;
 }
 
 .nav-case {
-    
-    display: flex;
-    justify-content: space-around;
-    padding: 0vw 0vw 0vw 0vw;
-    
+  display: flex;
+  justify-content: space-between;
+  padding: 0vw 10vw 0vw 8.5vw;
 }
 
 .other-links {
-    
-    display: flex;
-    justify-content: space-around;
-    
-    
+  display: flex;
+  justify-content: space-around;
 }
 
 .home-link {
-    text-decoration: none;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 3vw;
-    font-weight: bold;
-    letter-spacing: 2px;
-    color: whitesmoke;
-    position: relative;
-
+  text-decoration: none;
+  font-family: "Bebas Neue", cursive;
+  font-size: 3vw;
+  margin-top: -55px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #eb3402;
+  position: relative;
 }
 
-.about-link{
-    margin: 0 2vw;
-    text-decoration: none;
-    font-family: 'Abril Fatface', cursive;
-    font-size: 3vw;
-    font-weight: lighter;
-    color: white;
-}
-
-.portfolio-link{
-    margin: 0 2vw;
-    text-decoration: none;
-    font-family: 'Abril Fatface', cursive;
-    font-size: 3vw;
-    font-weight: lighter;
-    color: white;
-}
-
-.contact-link{
-    margin: -2vh  2vw;
-    text-decoration: none;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 3vw;
-    font-weight: lighter;
-    color: whitesmoke;
+.contact-link {
+  margin: 5px 1.5px;
+  text-decoration: none;
+  font-family: "Bebas Neue", cursive;
+  font-size: 2.5vw;
+  font-weight: lighter;
+  color: #00249e;
 }

@@ -9,20 +9,15 @@
 }
 
 .form-page-title {
-color: #111118;
+color: #fc1577;
 margin: 2vw;
-padding-left: 4vw;
+padding-left: -3vw;
 font-size: 10vw;
 font-family: 'Bebas Neue', cursive;
+margin-bottom: -150px;
 }
 
-.form-page {
 
-}
-
-.form-inputs {
-
-}
 
 .form-email {
 grid-area: email;
@@ -59,9 +54,9 @@ padding: 1vw 3vw;
 margin: 3vh 0vw 3vh -15rem;
 font-weight: bold;
 font-size: 1.5vw;
-background-color: #111118;
+background-color: #eb3402;
 border: 1px solid whitesmoke;
 border-radius: 5%;
-color: whitesmoke;
+color: white;
 font-family: 'Bebas Neue', cursive;
 }

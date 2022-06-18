@@ -1,110 +1,138 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 .about-body {
-background-color: #111118;
-    display: grid;
-    grid-template-areas: "img me"
-                         "img link"
-;
+  background-color: white;
+  display: grid;
+  grid-template-areas:
+    "gn gn"
+    "skills bio";
 }
 
-/* .about-img {
-
-
-grid-area: img;
-border: 2px solid whitesmoke;
-border-radius: 50%;
-width: 150%;
-height: 20%;
-margin: 0 0 150%;
-} */
+.self-img {
+  grid-area: img;
+  border: 2px solid whitesmoke;
+  border-radius: 15% 15%;
+}
 
 .download-link {
-    font-family: 'Bebas Neue', cursive;
-    color: whitesmoke;
-    text-decoration: none;
+  font-family: "Bebas Neue", cursive;
+  color: black;
+  text-decoration: none;
 }
 
 .about-me {
-    grid-area: me;
-    color: whitesmoke;
-    
+  grid-area: gn;
+  color: #fc1577;
 }
+
 .about-title {
-    display: flex;
-    flex-direction: row;
-    padding: 2vw;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 7vw;
+  display: flex;
+  flex-direction: row;
+  padding: 0.5%;
+  margin-bottom: -50px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 7vw;
 }
 
 .about-end {
-    display: flex;
-    flex-direction: row-reverse;
-    padding: 2vw;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 5vw;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 2vw;
+  font-family: "Bebas Neue", cursive;
+  font-size: 5vw;
 }
 
-.about-detail{
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-  align-content: flex-start;
-    flex-direction: column;
-    text-align: left;
-    
+.about-detail {
+  list-style-type: none;
+  color: white;
 }
 
 .name {
-padding:0vw 1vw 1vw 1vw;
-font-family: 'Bebas Neue', cursive;
-font-size: 4rem;
+  padding: 0vw 1vw 1vw 1vw;
+  font-family: "Bebas Neue", cursive;
+  font-size: 4rem;
 }
 
 .location {
-    padding:0vw 1vw 1vw 1vw; 
-    font-family: 'Bebas Neue', cursive;
-    font-size: 2.5rem;
+  padding: 0vw 1vw 1vw 1vw;
+  font-family: "Bebas Neue", cursive;
+  font-size: 2.5rem;
 }
 
 .title {
-    padding:0vw 1vw 1vw 1vw; 
-    font-family: 'Bebas Neue', cursive;
-    font-size: 2rem;
+  padding: 0vw 1vw 1vw 1vw;
+  font-family: "Bebas Neue", cursive;
+  font-size: 2rem;
 }
 
+.box-one {
+  background-color: #00249e;
+  border: 1px solid whitesmoke;
+  border-radius: 20px 20px;
+  opacity: 0.8;
+  font-size: smaller;
+  grid-area: skills;
+  margin-right: 50%;
+}
 .skills {
-    padding:1vw 1vw 1vw 1vw; 
-    font-family: 'Bebas Neue', cursive;
-    font-size: 2vw;
+  font-family: "Bebas Neue", cursive;
+  font-size: 2vw;
+  list-style-type: none;
+  padding: 18px;
+  color: white;
 }
 .about-paragraph {
-    margin: 3vw 1vw 1vw 3vw;
-    font-family: 'Bebas Neue', cursive;
-    text-align: left;
-    font-size: 1.2rem;
+  margin: 3vw 1vw 1vw 3vw;
+  font-family: "Bebas Neue", cursive;
+  text-align: left;
+  font-size: 2vw;
+  color: white;
+
+  padding: 19.5px;
 }
 
-.download-link{
-    grid-area: link;
-    color: whitesmoke;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 3vw;
-    background-color: #111118;
-    border: 1px solid whitesmoke;
-    border-radius: 5px;
-    padding: 5px;
-    margin-bottom: 5vw;
+.box-two {
+  border: 1px solid whitesmoke;
+  border-radius: 20px 20px;
+  background-color: #fc1577;
+  opacity: 0.8;
+  font-size: smaller;
+  grid-area: bio;
+  margin-left: 51%;
+  margin-right: 0%;
+  margin-top: -104vh;
+  padding: 71px 0px;
 }
 
-.download-button{
-   color: whitesmoke;
-text-decoration: none;
-padding: 1vh 2vw 1vh 2vw;
-    
+.bio-title {
+  margin-right: 77%;
+  font-family: "Bebas Neue", cursive;
+  font-size: 3vw;
+  color: white;
 }
 
-.general {
-    margin-left: 35%;
+.download-link {
+  grid-area: link;
+  color: whitesmoke;
+  font-family: "Bebas Neue", cursive;
+  font-size: 3vw;
+  background-color: #f5b0c2;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 3vh;
+  text-decoration: none;
+  margin-top: -20vh;
+}
+
+.download-button {
+  color: white;
+  text-decoration: none;
+}
+
+.general-box {
+  border: 1px solid #eb3402;
+  margin: 0 10vw;
+background-color: #eb3402;
+  border-radius: 20px 20px;
 }
