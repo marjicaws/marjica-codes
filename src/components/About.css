@@ -12,6 +12,8 @@
   grid-area: img;
   border: 2px solid whitesmoke;
   border-radius: 15% 15%;
+  margin-top: 50px;
+  position: relative;
 }
 
 .download-link {
@@ -73,6 +75,8 @@
   font-size: smaller;
   grid-area: skills;
   margin-right: 50%;
+  position: relative;
+  
 }
 .skills {
   font-family: "Bebas Neue", cursive;
@@ -100,10 +104,34 @@
   grid-area: bio;
   margin-left: 51%;
   margin-right: 0%;
-  margin-top: -104vh;
-  padding: 71px 0px;
+  margin-top: -49.3%;
+  padding: 2% 0vh;
+  position: absolute;
 }
 
+/* @media only screen and (max-width: 1600px) {
+  .box-one {
+    margin-top: 6vh;
+  }
+  .box-two {
+    padding: 52px;
+    margin-top: -116vh;
+  }
+
+  
+} */
+
+/* @media only screen and (max-width: 1500px) and (min-width: 1000px) {
+  .box-one {
+    margin-top: 4%;
+  }
+  .box-two {
+    padding: 4.4%;
+    margin-top: -59.7%;
+  }
+
+  
+} */
 .bio-title {
   margin-right: 77%;
   font-family: "Bebas Neue", cursive;
@@ -120,7 +148,7 @@
   border: 1px solid whitesmoke;
   border-radius: 5px;
   padding: 20px;
-  margin-bottom: 3vh;
+  margin-bottom: 4vh;
   text-decoration: none;
   margin-top: -20vh;
 }
@@ -135,4 +163,5 @@
   margin: 0 10vw;
 background-color: #eb3402;
   border-radius: 20px 20px;
+  position: relative;
 }
