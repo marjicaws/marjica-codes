@@ -7,7 +7,7 @@
 .nav-case {
   display: flex;
   justify-content: space-between;
-  padding: 0vw 10vw 0vw 8.5vw;
+  padding: 0vw 18vw 0vw 8.5vw;
 }
 
 .other-links {
@@ -19,7 +19,7 @@
   text-decoration: none;
   font-family: "Bebas Neue", cursive;
   font-size: 3vw;
-  margin-top: -55px;
+  margin-top: -57px ;
   font-weight: bold;
   letter-spacing: 2px;
   color: #eb3402;
@@ -27,7 +27,29 @@
 }
 
 .contact-link {
-  margin: 3px 1.5px;
+  margin: 0.5% 3px;
+  text-decoration: none;
+  font-family: "Bebas Neue", cursive;
+  font-size: 2.5vw;
+  font-weight: lighter;
+  color: #00249e;
+  position: absolute;
+}
+
+.port-link {
+  margin: 0.5% 55%;
+  padding: 0 0 ;
+  text-decoration: none;
+  font-family: "Bebas Neue", cursive;
+  font-size: 2.5vw;
+  font-weight: lighter;
+  color: #00249e;
+  position: absolute;
+}
+
+.about-link {
+  margin: 0.5% 45%;
+  padding: 0 0 ;
   text-decoration: none;
   font-family: "Bebas Neue", cursive;
   font-size: 2.5vw;

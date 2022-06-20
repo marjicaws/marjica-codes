@@ -10,7 +10,11 @@ export default function Navbar() {
           {" "}
           <p>marjica_codes</p>
         </Link>
+        <Link className="about-link" to="/about">About</Link>
+        <Link className="port-link" to="/portfolio">Portfolio</Link>
         <div className="other-links">
+
+        
           <Link className="contact-link" to="/contact">
             <svg
               xmlns="http://www.w3.org/2000/svg"

@@ -33,7 +33,7 @@ const Home = () => {
 
         <h3 className="home-date">2022</h3>
         <div className="btns">
-          <Link className="about-link" to="/about">
+          <Link className="about-btn" to="/about">
             <button className="btn-home">
               <p>about</p>
             </button>
