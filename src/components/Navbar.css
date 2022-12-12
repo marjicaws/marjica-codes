@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://api.fontshare.com/v2/css?f[]=melodrama@300,400,600&display=swap");
 .nav {
   border-bottom: 1px solid white;
   background-color: white;
@@ -7,53 +7,65 @@
 .nav-case {
   display: flex;
   justify-content: space-between;
-  padding: 0vw 18vw 0vw 8.5vw;
+  padding: 1vw 35vw 0vw 10vw;
 }
 
-.other-links {
-  display: flex;
-  justify-content: space-around;
-}
+
 
 .home-link {
   text-decoration: none;
-  font-family: "Bebas Neue", cursive;
-  font-size: 3vw;
-  margin-top: -57px ;
+  font-family: "Melodrama", serif;
+  font-size: 5vw;
+ 
   font-weight: bold;
   letter-spacing: 2px;
-  color: #eb3402;
+  color: #7c7c7c;
   position: relative;
+  right: 40px;
+  top: -15px;
+  height: auto;
+  max-width: 100%;
 }
 
 .contact-link {
   margin: 0.5% 3px;
   text-decoration: none;
-  font-family: "Bebas Neue", cursive;
+  font-family: "Melodrama", serif;
   font-size: 2.5vw;
   font-weight: lighter;
-  color: #00249e;
-  position: absolute;
+  color: #7c7c7c;
+  
+  position: relative;
+  left: -280px;
 }
 
 .port-link {
-  margin: 0.5% 55%;
-  padding: 0 0 ;
+  margin: -5px 10px;
+  padding: 0 20px ;
   text-decoration: none;
-  font-family: "Bebas Neue", cursive;
-  font-size: 2.5vw;
+  font-family: "Melodrama", serif;
+  font-size: 4vw;
   font-weight: lighter;
-  color: #00249e;
-  position: absolute;
+  color: #7c7c7c;
+  position: relative;
+  top: 35px;
+  left: -280px;
+  height: auto;
+  max-width: 100%;
 }
 
 .about-link {
-  margin: 0.5% 45%;
-  padding: 0 0 ;
+  margin: -5px 250px;
+  padding: 0 -5px ;
   text-decoration: none;
-  font-family: "Bebas Neue", cursive;
-  font-size: 2.5vw;
+  font-family: "Melodrama", serif;
+  font-size: 4vw;
   font-weight: lighter;
-  color: #00249e;
-  position: absolute;
+  color: #7c7c7c;
+  position: relative;
+  bottom: -35.5px;
+  left: -80px;
+  max-width: 100%;
+  height: auto;
+
 }

@@ -1,31 +1,35 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap");
+@import url("https://api.fontshare.com/v2/css?f[]=melodrama@300,400,600&display=swap");
+@import url("https://api.fontshare.com/v2/css?f[]=boska@900&display=swap");
+
 .home-border {
   margin: 8vh 1vw;
 }
 
 .home-name {
   position: relative;
-  font-size: 9rem;
-  color: #fc1577;
+  font-size: 6rem;
+  color: black;
   letter-spacing: 5px;
-  font-family: "Bebas Neue", cursive;
+  font-family: "Melodrama", serif;
   margin-bottom: -10px;
   margin-top: -20px;
+  height: auto;
+  max-width: 100%;
 }
 
-.circle {
-  border: 2px solid #989fce;
+/* .circle {
+
   border-radius: 50%;
-  height: 500px;
-  width: 500px;
-  display: flex;
+  height: auto;
+  
+  
   background-color: #989fce;
-  border: 5px solid silver;
-  margin: 0px 42.5rem;
+
+ 
+  
+  
   animation: rotation 10s infinite linear;
-}
+} */
 
 @keyframes rotation {
   from {
@@ -36,76 +40,28 @@
   }
 }
 
-.dot {
-  border: 1px solid black;
-  border-radius: 50%;
-  height: 150px;
-  width: 150px;
-  margin: 10px 150px;
-  background-color: black;
-}
-
-.cootieshot {
-  border: 1px solid white;
-  border-radius: 50%;
-  height: 50px;
-  width: 50px;
-  margin: 50px;
-  background-color: white;
-}
 
 .line1 {
-  border: 1px solid black;
+  border: 1px solid #181617;
   border-radius: 50%;
   margin: 15px;
   height: 450px;
   width: 450px;
 }
-.cd-title {
-  font-family: "Rubik Glitch", cursive;
-}
 
-.cd-name {
-  font-family: "Pinyon Script", cursive;
-  color: white;
-  font-size: 40px;
-  margin: 5px;
-}
-.cd-song {
-  font-family: "Bebas Neue", cursive;
-  font-size: 35px;
-  margin: 5px;
-}
-.cd-btn {
-  border-radius: 50%;
-  border: 1px solid silver;
-  height: 500px;
-  width: 500px;
-  background-color: #f5b0c2;
-}
-@keyframes animate {
-  0%,
-  10%,
-  100% {
-    width: 0;
-  }
-  70%,
-  90% {
-    width: 99.8%;
-  }
-}
+
 
 .home-title {
-  font-family: "Bebas Neue", cursive;
+  font-family: "Boska", serif;
   font-size: 2rem;
-  color: #00249e;
-  letter-spacing: 6px;
+  color: #181617;
+  letter-spacing: 2px;
 }
 
 .home-date {
-  font-family: "Bebas Neue", cursive;
+  font-family: "Melodrama", serif;
   font-size: 2rem;
-  color: #f5b0c2;
+  color: #181617;
 }
 
 .home-img-div {
@@ -115,22 +71,24 @@
 }
 
 .btn-port {
-  background-color: #fc1577;
-  border-radius: 10px;
-  border: 1px solid white;
-  color: white;
-  font-family: "Bebas Neue", cursive;
+  background-color: #F2F3F0;
+  border: 1px solid #181617;
+  color: #181617;
+  font-family: "Melodrama", serif;
   font-size: 150%;
   padding: 0% 80px;
   letter-spacing: 1.5px;
+  height: auto;
+  max-width: 100%;
+  margin: 0 20px;
 }
 
 .btn-home {
-  background-color: #fc1577;
-  border-radius: 10px;
-  border: 1px solid white;
-  color: white;
-  font-family: "Bebas Neue", cursive;
+  background-color: #F2F3F0;
+
+  border: 1px solid #181617;
+  color: #181617;;
+  font-family: "Melodrama", serif;
   font-size: 150%;
   padding: 0% 100px;
   letter-spacing: 1.5px;

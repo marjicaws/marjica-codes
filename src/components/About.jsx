@@ -9,7 +9,6 @@ export default function About() {
       <h2 className='about-title'> Get to know me:</h2>
       <ul className='about-detail'>
         <div className='general'>
-        <li><img src="https://res.cloudinary.com/marssantos/image/upload/v1655408695/IMG_8829_wpdj6o.jpg" height={600} className="self-img"></img></li>
         <div className='general-box'>
         <li className='name'>Marjica Watson-Santos</li>
         <li className='location'> Atlanta, GA</li>
@@ -22,7 +21,7 @@ export default function About() {
 
        <div className='box-one'>
        <ul>
-         <h3 className= 'bio-title'>Skills:</h3>
+         <h3 className= 'bio-title'>Skills</h3>
         <li className='skills'>HTML</li>
         <li className='skills'>CSS</li>
         <li className='skills'>JS</li>
@@ -40,7 +39,7 @@ export default function About() {
 
       </div>
       <div className='box-two'>
-      <h3 className='bio-title'>Bio:</h3>
+      <h3 className='bio-title'>Bio</h3>
       <p className='about-paragraph'>Singing and songwriting taught me about the importance of being willing to go the extra mile for the finished product. 
         From pulling all-nighters to finish tracks, to pulling all-nighters to code and debug projects, a hard day&#39;s work 
         has never thrown me off my rhythm. 

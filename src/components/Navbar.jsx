@@ -8,7 +8,7 @@ export default function Navbar() {
       <div className="nav-case">
         <Link className="home-link" to="/">
           {" "}
-          <p>marjica_codes</p>
+          <p>mws</p>
         </Link>
         <Link className="about-link" to="/about">About</Link>
         <Link className="port-link" to="/portfolio">Portfolio</Link>
